@@ -1,7 +1,7 @@
 const ProjectCard = ({imageSrc, title, description, projectHref}) => {
     return (
         <div className="max-w-[20rem]">
-            <img className="rounded-2xl min-w-full" src={imageSrc} alt="Project image" />
+            <img className="rounded-2xl min-w-full" src={imageSrc} alt="Project image" loading="lazy"/>
             <div className="text-white p-2">
                 <h3 className="text-lg mb-2 font-bold">{title}</h3>
                 <p>{description}</p>

@@ -58,7 +58,7 @@ const CertificationsSection = () => {
 
       </div>
       
-      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jose-martin-acosta/details/certifications/" className="block mt-10 text-gray-800 hover:text-sky-600 text-lg font-bold">View More Certifications here</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/josem-acosta/details/certifications/" className="block mt-10 text-gray-800 hover:text-sky-600 text-lg font-bold">View More Certifications here</a>
 
     </section>
   )

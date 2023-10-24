@@ -2,9 +2,9 @@ import TypingEffect from "../elements/TypingEffect"
 
 const Header = () => {
     return (
-        <header className="h-screen min-h-[35rem] bg-gray-800">
+        <header className="h-[52rem] sm:h-[62rem] lg:h-screen flex items-center bg-gray-800">
             <TypingEffect 
-                textToType={'Jose Martin Acosta Rodriguez\nDeveloper'}
+                textToType={'José Acosta Rodríguez\nDeveloper'}
             />
         </header>
     )

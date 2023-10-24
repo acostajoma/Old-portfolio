@@ -14,7 +14,7 @@ const AboutSection = () => {
       </div>
 
         <div className="relative max-w-fit m-auto mt-3 mb-10">
-          <img className="max-h-[32rem]" src={personalImage} alt="Personal Image" />
+          <img className="max-h-[32rem]" src={personalImage} alt="Personal Image" loading="lazy"/>
         
           <PingButton 
             buttonText={'Contact Me'}
